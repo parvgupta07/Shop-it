@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/csss2?family=Quicksand:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.category {
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoryHeading {
+    font-family: "Cinzel";
+    letter-spacing: 5px;
+    text-shadow: rgb(118, 133, 126) 2px 2px 4px;
+    font-size: 24px;
+}
+
+.cat1N {
+    font-family: "Cinzel";
+    letter-spacing: 5px;
+    text-shadow: rgb(118, 133, 126) 2px 2px 4px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.cat1S {
+    font-family: "Cinzel";
+    letter-spacing: 5px;
+    text-shadow: rgb(118, 133, 126) 2px 2px 4px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.animation {
+    margin-bottom: 30px;
+    height: 630px;
+    width: 1200px;
+    animation: menanimation 15s infinite;
+    margin-left: 75px;
+}
+
+@keyframes menanimation {
+    0% {
+        background: url(Static/womenanimation1.png);
+    }
+
+    25% {
+        background: url(Static/womenanimation3.png);
+    }
+
+    75% {
+        background: url(Static/womenanimation2.png);
+    }
+
+    80% {
+        background: url(Static/womenanimation4.png);
+    }
+
+    100% {
+        background: url(Static/womenanimation5.png);
+    }
+}
+
+.casual_Items_Heading {
+    padding-left: 5vw;
+}
+
+.Actualtshist {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hr {
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.categoryHeading:hover {
+    border-bottom: 2.5px solid rgb(22, 82, 151);
+}
+
+.casual_Items_Heading:hover {
+    border-bottom: 2px solid rgb(22, 82, 151);
+    margin-left: 99px;
+    margin-right: 1111px;
+    padding-left: 0px;
+}
+
+.card {
+    border: 1px solid rgb(22, 82, 151);
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.card img {
+    width: 300px;
+    padding: 5px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 10px;
+}
+
+button {
+    border: 2px solid #e1701a;
+    background: #f7a440;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.cart {
+    width: 100%;
+    text-align: center;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.cartImg>img {
+    width: 200px;
+}
+
+.rate {
+    margin: 0px 0px 0px 80px;
+    font-size: large;
+}
+
+.size {
+    display: flex;
+    padding-left: 35px;
+}
+
+#title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title2 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}

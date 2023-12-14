@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@350&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+form{
+    font-family: 'Raleway';
+    margin-top: 100px;
+    height: auto;
+}
+
+form .sign-In-container{
+    background-color: #eeeeee;
+    width: 500px;
+    height: auto;
+    margin-left: 500px;
+    padding: 20px;
+    box-shadow:5px 5px 12px 7px rgb(113 113 113 / 25%);
+    line-height: 35px;
+}
+
+form .sign-In-container h1{
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+form .sign-In-container p{
+    font-size: 15px;
+    letter-spacing: 1px;
+} 
+
+form .sign-In-container p a{
+    color: #15006e;
+    text-shadow: 0px 0px 1px #003160b3;
+    letter-spacing: 2px;
+}
+
+form .sign-In-container input{
+    height: 45px;
+    width: 480px;
+    border-radius: 3px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 8px 2px #83868536;
+    overflow: hidden;
+    outline: none;
+}
+
+form .sign-In-container input:hover{
+    outline: none;
+}
+
+::placeholder{
+    font-size: 17px;
+    color: rgba(1, 105, 81, 0.412);
+    padding: 10px;
+}
+
+
+form .sign-In-container .nextbtn{
+    height: 35px;
+    width: 480px;
+    background:linear-gradient(14deg, #000000d9, #00255c57);
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+form .sign-In-container .nextbtn:hover{
+    background-color: black;
+}
+
+form .sign-In-container .nextbtn span{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3.5px;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 100px;
+}

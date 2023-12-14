@@ -1,0 +1,481 @@
+/* Common Styles For All Elements */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
+
+body{
+    scroll-behavior:smooth;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+/* Common Styles Ends For All Elements */
+
+/* //////////////////////////////////////////////////////////////////// */
+
+/* HEADER Style Start */
+
+.full-container{
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 5px rgb(241, 231, 231);
+}
+
+header .container{
+    display: flex;
+}
+
+header .container .logo-image{
+    padding-left: 30px;
+    height: 50px;
+}
+
+header .container .logo-image a img{
+    height: 100%;
+    padding-top: 20px;
+}
+
+header .container .product-links{
+    justify-content: center;
+}
+
+header .container .product-links .no-list-style{
+    list-style: none;
+}
+
+header .container .product-links .no-list-style li{
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+    padding-right: 48px;
+    margin-top: -7px;
+}
+
+header .container .product-links .no-list-style li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+header .container .product-links .no-list-style .pink-on-hover a:hover{
+    padding-bottom: 41px;
+    border-bottom: 5px solid hotpink;
+}
+
+header .container .product-links .no-list-style .on-hover a:hover{
+    padding-bottom: 41px;
+    border-bottom: 5px solid rgb(38, 186, 30);
+}
+
+header .container .search-box{
+    margin: auto;
+    margin-left: -1%;
+    display: flex;
+    overflow: hidden;
+    width: 38%;
+}
+
+header .container .search-box input{
+    width: 100%;
+    justify-content: center;
+    height: 38px;
+    border: none;
+    outline: none;
+    background-color: #dde2e6b3;
+    border-top-right-radius: 4px ;
+    border-bottom-right-radius: 4px ;
+    padding-left: 5% ;
+}
+
+header .container .search-box button{
+    outline: none;
+    border: none;
+    background-color: #dde2e6b3;
+    border-top-left-radius: 4px ;
+    border-bottom-left-radius: 4px ;
+    margin: 0px;
+}
+
+header .container .search-box:hover{
+    outline: none;
+}
+
+header .container .user-icons{
+    margin-right: 50px;
+}
+
+header .container .user-icons img{
+    margin-top: 26px;
+    margin-left: 7px;
+}
+
+header .container .user-icons p{
+    margin-top: 0px;
+    font-weight: 600;
+    color: black;
+}
+
+header .container .user-icons:hover{
+    padding-bottom: 1px;
+    border-bottom: 5px solid hotpink;
+    z-index: 2;
+}
+
+/* DropDown Menu Styles */
+
+header .container .user-icons .dropdown{
+    display: none;
+    background: linear-gradient(90deg, #f2c1ff, #fbf4f4);
+    position: absolute;
+    top: 13.5%;
+    right: 4%;
+    width: 320px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+header .container .user-icons:hover .dropdown{
+    display: block;
+}
+
+
+
+header .container .user-icons .dropdown .dropdown-link{
+    display: flex;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+header .container .user-icons .dropdown .dropdown-link p{
+    margin-left: 15px;
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Raleway' ;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+header .container .user-icons .dropdown .dropdown-link p:hover {
+    font-weight: 500;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding-bottom: 3px;
+    margin-bottom: 14px;
+}
+
+header .container .user-icons .dropdown .dropdown-link img{
+    margin-left: 12px;
+    margin-top: -2px;
+}
+
+header .container .user-icons .dropdown .Sign-In-Up{
+    overflow: hidden;
+    margin: 30px 56px 0px 56px;
+    padding: 0px;
+    height: 45px;
+    width: 200px;
+    background:linear-gradient(14deg, #000000d9, #00255c57);
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+header .container .user-icons .dropdown .Sign-In-Up:hover{
+    z-index: 2;
+    background-color: black;
+}
+
+header .container .user-icons .dropdown .Sign-In-Up span{
+    font-family: 'Raleway';
+    font-size: 13px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+header .container .user-icons .dropdown .Sign-In-Up a{
+    text-decoration: none;
+}
+
+/* DropDown Menu Styles Ends */
+
+header .container .header-icons{
+    margin-right: 50px;
+}
+
+header .container .header-icons a p{
+    margin-top: 0px;
+    font-weight: 600;
+    color: black;
+}
+
+header .container .header-icons a{
+    text-decoration: none;
+}
+
+header .container .wishlist-icons img{
+    margin-top: 26px;
+    margin-left: 10px;
+}
+
+header .container .bag-icons a img{
+    margin-top: 26px;
+}
+
+header .container .bag-icons a p{
+    margin-left: 0px;
+}
+
+header .container .header-icons:hover{
+    padding-bottom: 1px;
+    border-bottom: 5px solid hotpink;
+}
+
+/* HEADER Style Ends Here */
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Complete Common Styles For Men Women Beauty Electronics Section Starts */
+
+main .section-heading{
+    scroll-behavior: smooth;
+    margin-top: 5rem;
+}
+
+Main .section-heading a{
+    text-decoration: none;
+}
+
+Main .section-heading a h1{
+    margin-top: 7.5rem;
+    margin-left: 35rem;
+    font-family:'Cinzel';
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgb(118 133 126) ;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    transition: .2s linear;
+}
+
+Main .section-heading a h1:hover{
+    letter-spacing: .7rem;
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+}
+
+Main .different-section{
+    padding-left: 2.5rem;
+    display: flex;
+    gap: 20px;
+    background-color: #eeeeee;
+    height: 28rem;
+}
+
+Main .different-section .products-block .products-image{
+    overflow: hidden;
+    width: 10rem;
+    height: 16rem;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 9px 3px rgb(137 129 129 / 90%);
+}
+
+Main .different-section .products-block .products-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    transition: 0.6s ease-in-out;
+}
+
+Main .different-section .products-block .products-image:hover img{
+    transform: scale(1.2);
+}
+
+Main .different-section .products-block .product-description{
+    height: 8rem;
+    width: 11rem;
+    background-image: url('Static/grey.jpg');
+    background-size: contain ;
+    background-attachment: fixed;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 6px;
+}
+
+Main .different-section .products-block .product-description p{
+    font-family: 'Cinzel';
+    margin-top: 0px;
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 8px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px #cd12c5;
+    line-height: 27px;
+}
+
+Main .different-section .products-block .product-description p span{
+    font-size: 21px;
+    font-weight: 900;
+}
+
+Main .different-section .products-block .product-description img{
+    background-color: #fffefeb5;
+    padding-top: 5px;
+}
+
+
+/* Common Styles for Men Women Electronics and beauty Ends Here */
+
+/* Men Section styles */
+
+Main #Men{
+    height: 40vh;
+    background-image: url('Static/young.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+    position: relative;
+}
+/* ////////////////////////////////////////////////// */
+
+/* Women Section Styles */
+
+Main #Women{
+    height: 40vh;
+    background-image: url('Static/women bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+    position: relative;
+}
+
+/* ///////////////////////////////////////// */
+
+/* Beauty Section Styles */
+
+Main #Beauty{
+    height: 40vh;
+    background-image: url('Static/beauty bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+    position: relative;
+}
+
+/* ///////////////////////////////////////////// */
+
+/* Electronics Section Styles */
+
+Main #Electronics{
+    height: 40vh;
+    background-image: url('Static/electronics bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+    position: relative;
+}
+
+main .section-heading .electronics h1{
+    margin-left: 30rem;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+/* Footer Styles starts Here */
+
+/* common styles for footer */
+footer{
+    scroll-behavior: smooth;
+    height: auto;
+    background-image: linear-gradient(50deg, #026269 0%, #002b54 74%);
+}
+
+footer .all-links{
+    display: flex;
+    gap: 70px;
+    padding-left:235px;
+    padding-top: 50px;
+}
+
+footer .all-links .links h3{
+    text-transform:uppercase;
+    font-family: "Quicksand";
+    color: white;
+}
+
+footer .all-links .links h3:hover{
+    border-bottom: 2px solid white;
+    margin-bottom: 17px;
+}
+
+footer .all-links .links nav ul{
+    list-style: none;
+    padding: 4px;
+    margin-top: -7px;
+}
+
+footer .all-links .links nav ul li{
+    padding-top: 8px;
+}
+
+footer .all-links .links nav ul li a{
+    text-decoration: none;
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: white;
+} 
+
+footer .all-links .links nav ul li a:hover{
+    font-weight: 900;
+}
+/* common styles end */
+
+footer .all-links .social-media nav ul li{
+    display: inline-block;
+    margin-right: 6px;
+}
+
+footer .all-links .logo-of-site{
+    margin-top: 21px;
+}
+
+footer hr{
+    opacity: .3;
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+footer .credit{
+    font-family: 'Quicksand';
+    font-size: 1.8rem;
+    color:white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
